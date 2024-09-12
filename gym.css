@@ -1,0 +1,706 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+      display: flex;
+      justify-content: space-between;
+     
+      padding: 7px;
+     
+      
+      
+     
+    
+
+}
+.navbar1{
+      display: flex;
+      
+
+}
+
+.navbar1 li{
+      padding: 5px 30px;
+    
+      list-style: none;
+}
+
+.navbar1 li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Kanit", sans-serif;
+   
+  
+
+
+}
+
+.btn{
+       padding: 12px 20px;
+       margin: 0 1px;
+       border-radius: 30px;
+       background-color: #36c991;
+       font-size: 13px;
+       font-weight: bold;
+       cursor: pointer;
+      border: none;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+      color: #fff;
+}
+.btn:hover{
+     background-color: rgb(255, 181, 44);
+}
+
+.heading{
+   
+    
+     padding: 1px 50px;
+
+     font-size: 1rem;
+     font-family: "Montserrat", sans-serif;
+     display: flex;
+  
+    
+
+}
+.heading img{
+      width: 120px;
+      margin: 0 5px;
+
+}
+
+.container{
+      display: flex;
+      flex-direction: column;
+    
+      align-items: center;
+      justify-content: center;
+      /* width: 100%; */
+      height: 600px;
+      background-image: url(head3.avif);
+      
+      background-repeat: no-repeat;  
+      background-position: center;
+      background-size: cover;
+      opacity: 0.9;
+      
+
+
+
+
+    
+}
+.box{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+}
+
+#box-1 h1{
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+
+     
+}
+
+#box-2{
+     margin: 15px;
+     
+}
+
+#box-2 input{
+   width: 600px;
+   padding: 16px;
+   border: none;
+   border-radius: 25px;
+   
+}
+
+.btn1{
+
+    padding: 16px  20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #36c991;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    cursor: pointer;
+      
+}
+.btn1:hover{
+    background-color: rgb(255, 181, 44);
+}
+
+  
+
+.container1{
+     display: flex;
+     height: 300px;
+    
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+
+
+
+}
+.box1{
+     display: flex;
+   
+     width: 400px;
+      height: 300px;
+      margin: 1px 12px;
+      cursor: pointer;
+      
+
+}
+
+#box1-1{
+    background-image: url(banglore.avif);
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0px 10px 1px rgba(0, 0, 0,.1);
+    transition:  1s;
+    opacity: 0.9;
+    
+
+
+     
+}
+#box1-1:hover{
+    transform: scale(1.1);
+    /* z-index: 2; */
+}
+#box1-2{
+     background-image: url(hyd.avif);
+     background-repeat: no-repeat;
+     background-size: cover;
+     box-shadow: 0 0px 10px 1px rgba(0, 0, 0,.1);
+     transition:  1s;
+     opacity: 0.9;
+    
+   
+}
+
+#box1-2:hover{
+     transform: scale(1.1);
+     /* z-index: 2; */
+}
+#box1-3{
+
+     background-image: url(mumb.avif);
+     background-repeat: no-repeat;
+     background-size: cover;
+     box-shadow: 0 0px 10px 1px rgba(0, 0, 0,.1);
+     transition:  1s;
+     opacity: 0.9;
+}
+
+#box1-3:hover{
+    transform: scale(1.1);
+     /* z-index: 2; */
+
+}
+.h1-primery{
+      font-size: 1rem;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin: 10px 15px;
+     font-family: "Kanit", sans-serif;
+     color: #FFFFFF;
+   
+
+      
+}
+
+.viwe-city{
+    display: flex;
+    
+     justify-content: center;
+     width: 100%;
+     margin-top: 20px;
+
+}
+
+.btn4{
+      width: 200px;
+      padding: 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      background-color: #36c991;
+      color:  white;
+      font-weight: bold;
+      font-size: 13px;
+      border: none;
+      font-family: "Kanit", sans-serif;
+      
+}
+.btn4:hover{
+     background-color: rgb(255, 181, 44);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container2{
+    display: flex;
+    height: 300px;
+   
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+
+
+}
+.box2{
+    display: flex;
+  
+    width: 400px;
+     height: 300px;
+     margin: 1px 12px;
+     cursor: pointer;
+     
+
+}
+
+#box2-1{
+   background-image: url(pune.avif);
+   /* background-position: cover; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: 0 0px 10px 1px rgba(0, 0, 0,.1);
+   transition:  1s;
+   opacity: 0.9;
+   
+
+
+    
+}
+#box2-1:hover{
+   transform: scale(1.1);
+   /* z-index: 2; */
+}
+#box2-2{
+    background-image: url(channai.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0px 10px 1px rgba(0, 0, 0,.1);
+    transition:  1s;
+    opacity: 0.9;
+   
+  
+}
+
+#box2-2:hover{
+    transform: scale(1.1);
+    /* z-index: 2; */
+}
+#box2-3{
+
+    background-image: url(noida.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0px 10px 1px rgba(0, 0, 0,.1);
+    transition:  1s;
+    opacity: 0.9;
+}
+
+#box2-3:hover{
+   transform: scale(1.1);
+    /* z-index: 2; */
+
+}
+
+.container3{
+     display: flex;
+   
+      height: 300px;
+      margin-top: 10px;
+      align-items: center;
+      justify-content: center;
+      background-color: #0d1f73;
+     
+
+}
+
+.motivation{
+     font-size: 1.5rem;
+     color: #FFFFFF;
+     font-family: "Montserrat", sans-serif;
+
+}
+
+
+
+.container4{
+    display: flex;
+    height: 300px;
+   
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+
+
+}
+.box3{
+    display: flex;
+  
+    width: 400px;
+     height: 300px;
+     margin: 1px 12px;
+     cursor: pointer;
+     
+
+}
+
+#box3-1{
+   background-image: url(kolkata.avif);
+   /* background-position: cover; */
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: 0 0px 10px 1px rgba(0, 0, 0,.1);
+   transition:  1s;
+   opacity: 0.9;
+   
+
+
+    
+}
+#box3-1:hover{
+   transform: scale(1.1);
+   /* z-index: 2; */
+}
+#box3-2{
+    background-image: url(delhi.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0px 10px 1px rgba(0, 0, 0,.1);
+    transition:  1s;
+    opacity: 0.9;
+   
+  
+}
+
+#box3-2:hover{
+    transform: scale(1.1);
+    /* z-index: 2; */
+}
+#box3-3{
+
+    background-image: url(jaipur.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0px 10px 1px rgba(0, 0, 0,.1);
+    transition:  1s;
+    opacity: 0.9;
+}
+
+#box3-3:hover{
+   transform: scale(1.1);
+    /* z-index: 2; */
+
+}
+
+.container5{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    margin-top: 30px;
+   background-color:  #f8f8f8;;
+  
+
+
+    
+}
+
+.container6{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  
+     height: 800px;
+     margin-top: 10px;
+     background-image: url(yoga9.avif);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+  
+    
+}
+.yoga{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    
+}
+.yoga h1{
+     font-size: 50px;
+     font-family: "Montserrat", sans-serif;
+     color: #FFFFFF;
+}
+.yoga h2{
+     font-size: 20px;
+     font-family: "Montserrat", sans-serif;
+     color: #FFFFFF;
+}
+
+
+.topic{
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+
+}
+.topic-head h1{
+     margin: 10px;
+     font-size: 25px;
+     font-family: "Kanit", sans-serif;
+     font-weight: 100;
+}
+.topic-head1 h3{
+     
+     width: 200px;
+
+     margin: auto;
+     /* margin-top: 15px; */
+     font-size: 15px;
+     font-family: "Kanit", sans-serif;
+     font-family: 100;  
+
+}
+
+.everything{
+ 
+    height: 170px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.fox{
+   
+     width: 170px;
+     height: 170px;
+     display: flex;
+     align-items: center; 
+     justify-content: center;
+     margin: 0 3px;
+     box-shadow: 0 0px 10px 1px rgba(0, 0, 0,.1);
+    transition:  1s;
+    cursor: pointer;
+    
+}
+.fox:hover{
+    transform: scale(1.1);
+
+}
+
+#fox-1{
+     background-image: url(yoga-eve.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+
+}
+.fox h1{
+     margin-top: 120px;
+     font-size: 15px;
+     font-family: "Kanit", sans-serif;
+     /* font-weight: 100; */
+}
+
+#fox-2{
+     background-image: url(gym1-eve.png);
+     background-size: 100%;
+     background-repeat: no-repeat;
+
+}
+#fox-3{
+    background-image: url(medi.png);
+     background-size: 60%;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+#fox-4{
+    background-image: url(tia.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.tips{
+     display: flex;
+     flex-direction: column;
+     padding: 10px 10px;
+     margin: 10px 10px;
+
+}
+
+.tips h2{
+     padding: 30px 10px;
+     font-size: 2rem;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+
+}
+.tips h3{
+    padding: 7px 10px;
+    font-size: 1.5rem;
+    font-family: "Kanit", sans-serif;
+}
+.tips p{
+      padding: 5px 5px;
+      font-size: 1rem;
+}
+
+footer{
+     background:  #fff;
+     padding-top: 50px;
+     outline: auto;
+     box-shadow: 2px 2px;
+    
+   
+}
+.content{
+     width: 1120px;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+
+}
+.footer-content h3{
+     font-size: 28px;
+     margin-bottom: 15px;
+     text-align: center;
+     /* color: white; */
+     font-family: "Kanit", sans-serif;
+
+}
+.footer-content p{
+     width: 190px;
+     margin: auto;
+     padding: 7px;
+     /* color: white; */
+     font-family: "Kanit", sans-serif;
+
+}
+
+.footer-content ul{
+     text-align: center;
+
+}
+.list{
+    padding: 0px;
+
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+}
+
+.list li::before{
+    content: "";
+    position: absolute;
+    transform: translate(-50%,50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+
+
+
+
+
+}
+
+.list li:hover::before{
+   width: 70px;
+
+}
+  
+.social-icon{
+    text-align: center;
+    padding: 0;
+
+
+}
+.social-icon li{
+   display: inline-block;
+   text-align: center;
+   padding: 5px;
+
+}
+.social-icon i{
+    /* color: white; */
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    /* color: white; */
+    color: black;
+    font-family: "Kanit", sans-serif;
+
+}
+a:hover{
+   color: #f18930;
+
+}
+.social-icon i:hover{
+    color: #f18930;
+
+}
+.botton-bar{
+     background: #f18930;
+     text-align: center;
+     padding: 10px 0;
+     margin-top: 50px;
+
+}
+
+.botton-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+
+}
